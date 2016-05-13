@@ -1,0 +1,26 @@
+/**
+ * This is the main CSS file that handles the stylesheet of the application
+ */
+
+.easyPaginateNav {
+    text-align: center;
+}
+.easyPaginateNav a {
+    padding:5px;
+    font: bold 11px Arial;
+    text-decoration: none;
+    background-color: #EEEEEE;
+    color: #333333;
+    padding: 2px 6px 2px 6px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+}
+.easyPaginateNav a.current {
+    font-weight:bold;
+    text-decoration:underline;
+}
+#map {
+    height:350px;
+}
